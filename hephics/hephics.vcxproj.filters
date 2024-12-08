@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\hephics_core\gpu\device.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\context.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\debug.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\module_connection\gpu_ui\window_surface.cpp">
+      <Filter>hephics_core\module_connection\gpu_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="pch\stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\command_driver.cpp">
+      <Filter>hephics_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\io\shader.cpp">
+      <Filter>hephics_core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\pipeline.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\semaphore.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\buffer_barrier.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\image_barrier.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\samples\hephics_core\basic_computing.cpp">
+      <Filter>samples\hephics_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\buffer.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\buffer_description.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\description_unit.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\descriptor_set.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\descriptor_set_layout.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\image.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\image_description.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\image_view.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\sampler.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\shader_module.cpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\buffer_wrapper.cpp">
+      <Filter>hephics_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\gpu\vk_helper\vk_helper.cpp">
+      <Filter>hephics_core\gpu\vk_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hephics_core\command_buffer.cpp">
+      <Filter>hephics_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\samples\hephics_core\simple_image_computing.cpp">
+      <Filter>samples\hephics_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\samples\hephics_core\computing_frames_handle.cpp">
+      <Filter>samples\hephics_core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hephics.hpp" />
+    <ClInclude Include="src\hephics_core.hpp" />
+    <ClInclude Include="src\hephics_core\gpu.hpp">
+      <Filter>hephics_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hephics_core\module_connection\gpu_ui.hpp">
+      <Filter>hephics_core\module_connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hephics_core\ui.hpp">
+      <Filter>hephics_core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hephics_core\io.hpp">
+      <Filter>hephics_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\samples\hephics_core\basic_computing.hpp">
+      <Filter>samples\hephics_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hephics_core\gpu\vk_helper.hpp">
+      <Filter>hephics_core\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\samples\hephics_core\simple_image_computing.hpp">
+      <Filter>samples\hephics_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\samples\hephics_core\computing_frames_handle.h">
+      <Filter>samples\hephics_core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hephics_core">
+      <UniqueIdentifier>{93566a68-0629-499d-a8a4-21c937be1d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics">
+      <UniqueIdentifier>{30cb1cb8-f143-4c90-b076-750d56fa68b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics_core\gpu">
+      <UniqueIdentifier>{155af266-616b-4482-a193-28fbad250974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics_core\module_connection">
+      <UniqueIdentifier>{ed593df9-2854-4481-a092-b382acd2633b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics_core\module_connection\gpu_ui">
+      <UniqueIdentifier>{7023059a-6852-4451-965f-3afecd5e1803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{e0f74b88-c2c7-45af-a443-67e5a739923a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics_core\io">
+      <UniqueIdentifier>{08b26400-3bca-40ca-98c7-9d63a37ab93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples">
+      <UniqueIdentifier>{851dda63-3a7c-4857-80a8-714b64cdccd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\hephics_core">
+      <UniqueIdentifier>{119e36f6-9190-4605-b3af-e182db596f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\hephics">
+      <UniqueIdentifier>{1e4275d6-4c94-4dbb-88aa-f5d871c62fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{3073f112-1e82-4451-8038-2b2822452e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hephics_core\gpu\vk_helper">
+      <UniqueIdentifier>{337f1915-5f72-4702-a984-b9be041a7eb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\compute\basic.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\compute\simple_image.comp">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
