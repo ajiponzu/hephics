@@ -792,7 +792,7 @@ class BufferBarrier {
  public:
   BufferBarrier(const Buffer& buffer,
                 const std::vector<AccessFlag>& priority_access_flags,
-                const std::vector<AccessFlag> wait_access_flags);
+                const std::vector<AccessFlag>& wait_access_flags);
   ~BufferBarrier();
 
   auto& getBarrier() { return m_bufferMemoryBarrier; }
@@ -825,7 +825,7 @@ class ImageBarrier {
  public:
   ImageBarrier(const Image& image,
                const std::vector<AccessFlag>& priority_access_flags,
-               const std::vector<AccessFlag> wait_access_flags,
+               const std::vector<AccessFlag>& wait_access_flags,
                const ImageLayout old_layout, const ImageLayout new_layout,
                const ImageViewInfo& image_view_info);
   ~ImageBarrier();

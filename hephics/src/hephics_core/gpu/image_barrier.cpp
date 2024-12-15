@@ -3,7 +3,7 @@
 
 hpxc::gpu::ImageBarrier::ImageBarrier(
     const Image& image, const std::vector<AccessFlag>& priority_access_flags,
-    const std::vector<AccessFlag> wait_access_flags,
+    const std::vector<AccessFlag>& wait_access_flags,
     const ImageLayout old_layout, const ImageLayout new_layout,
     const ImageViewInfo& image_view_info) {
   m_imageMemoryBarrier.setImage(image.getImage());

@@ -3,7 +3,7 @@
 
 hpxc::gpu::BufferBarrier::BufferBarrier(
     const Buffer& buffer, const std::vector<AccessFlag>& priority_access_flags,
-    const std::vector<AccessFlag> wait_access_flags) {
+    const std::vector<AccessFlag>& wait_access_flags) {
   m_bufferMemoryBarrier.setBuffer(buffer.getBuffer());
   m_bufferMemoryBarrier.setSize(buffer.getSize());
 
